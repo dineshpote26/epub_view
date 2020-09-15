@@ -107,7 +107,7 @@ packages:
     source: hosted
     version: "1.0.2+dart2"
   epub:
-    dependency: "direct main"
+    dependency: "direct overridden"
     description:
       name: epub
       url: "https://pub.dartlang.org"
@@ -135,10 +135,12 @@ packages:
   flutter_html:
     dependency: "direct main"
     description:
-      name: flutter_html
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.2"
+      path: "."
+      ref: HEAD
+      resolved-ref: "7853e3857d0b977f0ec622d86b6e6711316023fe"
+      url: "git://github.com/dineshpote26/flutter_html.git"
+    source: git
+    version: "1.0.0"
   flutter_svg:
     dependency: "direct overridden"
     description:
