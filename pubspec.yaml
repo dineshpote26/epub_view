@@ -20,7 +20,7 @@ dependencies:
 
 dependency_overrides:
   # flutter_html usages flutter_svg, DiagnosticableMixin problem
-  flutter_svg: ^0.18.0
+  flutter_svg: ^0.17.4
   # epub depends on 2.6.0
   xml: ^4.2.0
 
